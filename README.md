@@ -5,9 +5,9 @@ A lightweight, command-line-based simulator that demonstrates **dynamic load bal
 
 ✨Ideal for **Operating Systems coursework**, **distributed systems education**, and **performance analysis experiments**.
 
-✨![Demo](https://img.shields.io/badge/Status-Working-brightgreen) ![Python](https://img.shields.io/badge/Python-3.8%2B-blue) ![License](https://img.shields.io/badge/License-MIT-yellow)
+![Demo](https://img.shields.io/badge/Status-Working-brightgreen) ![Python](https://img.shields.io/badge/Python-3.8%2B-blue) ![License](https://img.shields.io/badge/License-MIT-yellow)
 
-##🪄 Features
+##📈Features
 - Implements **Least-Loaded Processor Assignment** (dynamic load balancing)
 - Supports multiple processors
 - Random or manual task generation
@@ -19,15 +19,16 @@ A lightweight, command-line-based simulator that demonstrates **dynamic load bal
 - Modular, clean code — easy to extend
 
 ## Project Structure
-dynamic-load-balancer/
-├── main.py(Entry point with CLI interface)
-├── processor.py(Processor class and load tracking)
-├── task.py              # Task model with workload
-├── load_balancer.py     # Core dynamic balancing logic
-├── utils.py             # Random task generator & helpers
-├── requirements.txt     # (Optional) Dependencies
-└── README.md            # This file
 
+```text
+dynamic-load-balancer/
+├── main.py              # Entry point with CLI interface
+├── processor.py         # Processor class and load tracking
+├── task.py              # Task model (ID + workload/CPU burst)
+├── load_balancer.py     # Core dynamic load balancing logic
+├── utils.py             # Random task generator & helper functions
+├── requirements.txt     # Optional dependencies (pure Python)
+└── README.md            # Project documentation
 ## Getting Started
 
 ### 1. Clone the Repository
