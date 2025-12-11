@@ -3,12 +3,11 @@
 # 🪄Dynamic Load Balancing in Multiprocessor Systems
 A lightweight, command-line-based simulator that demonstrates **dynamic load balancing** by distributing tasks across multiple processors in real time. It assigns each incoming task to the **least-loaded processor** at the moment of arrival, adapting dynamically to changing system loads.
 
-Ideal for **Operating Systems coursework**, **distributed systems education**, and **performance analysis experiments**.
+✨Ideal for **Operating Systems coursework**, **distributed systems education**, and **performance analysis experiments**.
 
-![Demo](https://img.shields.io/badge/Status-Working-brightgreen) ![Python](https://img.shields.io/badge/Python-3.8%2B-blue) ![License](https://img.shields.io/badge/License-MIT-yellow)
+✨![Demo](https://img.shields.io/badge/Status-Working-brightgreen) ![Python](https://img.shields.io/badge/Python-3.8%2B-blue) ![License](https://img.shields.io/badge/License-MIT-yellow)
 
-## Features
-
+##🪄 Features
 - Implements **Least-Loaded Processor Assignment** (dynamic load balancing)
 - Supports multiple processors
 - Random or manual task generation
@@ -21,8 +20,8 @@ Ideal for **Operating Systems coursework**, **distributed systems education**, a
 
 ## Project Structure
 dynamic-load-balancer/
-├── main.py              # Entry point with CLI interface
-├── processor.py         # Processor class and load tracking
+├── main.py(Entry point with CLI interface)
+├── processor.py(Processor class and load tracking)
 ├── task.py              # Task model with workload
 ├── load_balancer.py     # Core dynamic balancing logic
 ├── utils.py             # Random task generator & helpers
