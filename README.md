@@ -1,6 +1,6 @@
 # multiprocessor-system-simulator
-# Dynamic Load Balancing in Multiprocessor Systems
 
+# 🪄Dynamic Load Balancing in Multiprocessor Systems
 A lightweight, command-line-based simulator that demonstrates **dynamic load balancing** by distributing tasks across multiple processors in real time. It assigns each incoming task to the **least-loaded processor** at the moment of arrival, adapting dynamically to changing system loads.
 
 Ideal for **Operating Systems coursework**, **distributed systems education**, and **performance analysis experiments**.
@@ -97,5 +97,18 @@ Web interface using Streamlit
 Task arrival times and queue simulation
 Support for preemptive scheduling
 
+License
+This project is licensed under the MIT License — see the LICENSE file for details.
+
+### Optional: Add a LICENSE file
+Create a `LICENSE` file in the root with MIT License text (standard).
+
+Let me know if you want me to generate:
+- A PDF report version
+- PowerPoint slides
+- UML/class diagram
+- Sample output screenshots
+
+Happy coding and good luck with your submission! 🚀
 
 
