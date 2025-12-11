@@ -40,7 +40,7 @@ cd dynamic-load-balancer
 ```bash
 pip install -r requirements.txt
 ```
-Note: The simulator works with pure Python — requirements.txt is optional.
+   ->Note: The simulator works with pure Python — requirements.txt is optional.
 
 4. Run the Simulator
 ```bash
@@ -48,9 +48,11 @@ python3 main.py
 ```
 
 ✨You will be prompted to enter:
+```text
 -Number of processors
 -Number of tasks
 -Task generation mode (random or manual)
+```
 
 Example Interaction
 ```bash
@@ -77,7 +79,7 @@ CPU1 | Load=5  | Tasks=[2, 4]
 CPU2 | Load=9  | Tasks=[3]
 ```
 
-How It Works
+🎯How It Works
 ```text
   Concept                                              Description
 Current Load                  Sum of workloads of all tasks currently assigned to a processor
@@ -85,35 +87,29 @@ Balancing Rule                New task is always assigned to the processor with 
 Adaptivity                    Decision is made at runtime using the latest system state
 ```
 📈Educational Value
+```text
 This simulator helps students understand:
 -Multiprocessor scheduling in Operating Systems
 -Dynamic vs Static load balancing
 -Real-time decision making in resource allocation
 -Importance of load monitoring
 -Fairness and performance optimization in distributed systems
+```
 
 🚀Future Enhancements (Ideas)
-Round Robin scheduling mode
-Weighted load balancing (heterogeneous CPUs)
-Task migration between processors
-Real-time visualization (Matplotlib/Plotly)
-Export results to CSV/JSON
-Web interface using Streamlit
-Task arrival times and queue simulation
-Support for preemptive scheduling
+```text
+-Round Robin scheduling mode
+-Weighted load balancing (heterogeneous CPUs)
+-Task migration between processors
+-Real-time visualization (Matplotlib/Plotly)
+-Export results to CSV/JSON
+-Web interface using Streamlit
+-Task arrival times and queue simulation
+-Support for preemptive scheduling
+```
 
-License
+🪼License
 This project is licensed under the MIT License — see the LICENSE file for details.
 
-### Optional: Add a LICENSE file
-Create a `LICENSE` file in the root with MIT License text (standard).
-
-Let me know if you want me to generate:
-- A PDF report version
-- PowerPoint slides
-- UML/class diagram
-- Sample output screenshots
-
-Happy coding and good luck with your submission! 🚀
 
 
