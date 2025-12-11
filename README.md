@@ -29,27 +29,33 @@ dynamic-load-balancer/
 ├── utils.py             # Random task generator & helper functions
 ├── requirements.txt     # Optional dependencies (pure Python)
 └── README.md            # Project documentation
+```
 ## Getting Started
 
 ### 1. Clone the Repository
-
-'''bash
+```bash
 git clone https://github.com/your-username/dynamic-load-balancer.git
 cd dynamic-load-balancer
+```
 
 2. Install Dependencies (if any)
+```bash
 pip install -r requirements.txt
+```
 Note: The simulator works with pure Python — requirements.txt is optional.
 
-3. Run the Simulator
+4. Run the Simulator
+```bash
 python3 main.py
+```
 
-You will be prompted to enter:
-Number of processors
-Number of tasks
-Task generation mode (random or manual)
+✨You will be prompted to enter:
+-Number of processors
+-Number of tasks
+-Task generation mode (random or manual)
 
 Example Interaction
+```bash
 === Dynamic Load Balancing Simulator ===
 Enter number of processors: 3
 Enter number of tasks: 5
@@ -71,23 +77,24 @@ Assigned Task 5 → CPU0
 CPU0 | Load=12 | Tasks=[1, 5]
 CPU1 | Load=5  | Tasks=[2, 4]
 CPU2 | Load=9  | Tasks=[3]
+```
 
 How It Works
+```text
   Concept                                              Description
 Current Load                  Sum of workloads of all tasks currently assigned to a processor
 Balancing Rule                New task is always assigned to the processor with the minimum current load
 Adaptivity                    Decision is made at runtime using the latest system state
-
-Educational Value
+```
+📈Educational Value
 This simulator helps students understand:
+-Multiprocessor scheduling in Operating Systems
+-Dynamic vs Static load balancing
+-Real-time decision making in resource allocation
+-Importance of load monitoring
+-Fairness and performance optimization in distributed systems
 
-Multiprocessor scheduling in Operating Systems
-Dynamic vs Static load balancing
-Real-time decision making in resource allocation
-Importance of load monitoring
-Fairness and performance optimization in distributed systems
-
-Future Enhancements (Ideas)
+🚀Future Enhancements (Ideas)
 Round Robin scheduling mode
 Weighted load balancing (heterogeneous CPUs)
 Task migration between processors
