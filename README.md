@@ -1,5 +1,3 @@
-# multiprocessor-system-simulator
-
 # 🪄Dynamic Load Balancing in Multiprocessor Systems
 A lightweight, command-line-based simulator that demonstrates **dynamic load balancing** by distributing tasks across multiple processors in real time. It assigns each incoming task to the **least-loaded processor** at the moment of arrival, adapting dynamically to changing system loads.
 
